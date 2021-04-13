@@ -1,0 +1,27 @@
+\documentclass[12pt, a4paper, onecolumn, oneside, final]{report}
+
+\input{config}
+
+\title{Something}
+\author{Andra Antariksa Prihadi\\001201800123}
+\date{\month \year}
+
+\makeatletter
+\begin{document}
+	\input{cover}
+	
+	\pagenumbering{roman}
+	\setcounter{page}{0}
+	
+	\input{dedication}
+	\input{copyright}
+	
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	
+	\pagenumbering{arabic}
+	\setcounter{page}{0}
+	
+\end{document}
+\makeatother
